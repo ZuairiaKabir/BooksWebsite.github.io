@@ -51,7 +51,7 @@ body::before {
     height: 80vh;
     border: 5px solid rgba(59, 34, 34, .6);
     animation-name: image-trans;
-    animation-duration: 4s;
+    animation-duration: 3s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -105,7 +105,7 @@ body::before {
     animation-name: grid-back;
     animation-duration: 4s;
     animation-timing-function: ease-in-out;
-    animation-iteration-count: 6;
+    animation-iteration-count: 2;
     animation-direction: alternate;
 
 }
@@ -160,11 +160,11 @@ body::before {
     }
 
     50% {
-        transform: translate(2.5px, 2.5px);
+        transform: translate(4px, 4px);
     }
 
     100% {
-        transform: translate(5px, 5px);
+        transform: translate(8px, 8px);
     }
 
 }
